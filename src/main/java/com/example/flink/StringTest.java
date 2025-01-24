@@ -11,6 +11,6 @@ public class StringTest {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         DataStreamSource<String> stringDataStreamSource = env.fromElements("x","y","z");
         stringDataStreamSource.print();
-        env.execute("string");
+        env.execute("string2");
     }
 }
